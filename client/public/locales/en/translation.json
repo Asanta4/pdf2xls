@@ -1,0 +1,54 @@
+{
+  "app": {
+    "title": "PDF to Excel/CSV Converter",
+    "description": "Upload a PDF file and convert it to Excel or CSV table"
+  },
+  "language": {
+    "he": "Hebrew",
+    "en": "English",
+    "switch": "Switch Language"
+  },
+  "upload": {
+    "title": "Upload PDF",
+    "dropzone": "Drag and drop a PDF file here, or click to select file",
+    "button": "Select File",
+    "success": "File uploaded successfully!",
+    "error": "Error uploading file!",
+    "limits": "Size limit: 10MB, Allowed file types: PDF"
+  },
+  "conversion": {
+    "title": "Conversion",
+    "format": "Select output format",
+    "csv": "CSV",
+    "excel": "Excel",
+    "start": "Start Conversion",
+    "pause": "Pause",
+    "resume": "Resume",
+    "cancel": "Cancel",
+    "download": "Download File",
+    "status": {
+      "pending": "Waiting to start",
+      "processing": "Processing...",
+      "paused": "Paused",
+      "completed": "Completed",
+      "error": "Error"
+    }
+  },
+  "progress": {
+    "title": "Progress",
+    "page": "Page {{current}} of {{total}}",
+    "percent": "{{percent}}% completed"
+  },
+  "preview": {
+    "title": "Preview",
+    "noData": "No data to display",
+    "showPreview": "Show Preview"
+  },
+  "error": {
+    "invalidFile": "Invalid file type. Please upload a PDF file only.",
+    "fileSize": "File size exceeds the limit (10MB maximum).",
+    "upload": "Error uploading file. Please try again.",
+    "conversion": "Error during conversion process.",
+    "generic": "Unexpected error. Please try again."
+  }
+} 

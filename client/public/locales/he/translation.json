@@ -1,0 +1,54 @@
+{
+  "app": {
+    "title": "ממיר PDF לאקסל/CSV",
+    "description": "העלה קובץ PDF ונסה להמירו לטבלת אקסל או CSV"
+  },
+  "language": {
+    "he": "עברית",
+    "en": "אנגלית",
+    "switch": "החלף שפה"
+  },
+  "upload": {
+    "title": "העלאת PDF",
+    "dropzone": "גרור ושחרר קובץ PDF כאן, או לחץ לבחירת קובץ",
+    "button": "בחר קובץ",
+    "success": "הקובץ הועלה בהצלחה!",
+    "error": "שגיאה בהעלאת הקובץ!",
+    "limits": "מגבלת גודל: 10MB, סוגי קבצים מותרים: PDF"
+  },
+  "conversion": {
+    "title": "המרה",
+    "format": "בחר פורמט פלט",
+    "csv": "CSV",
+    "excel": "Excel",
+    "start": "התחל המרה",
+    "pause": "הפסק",
+    "resume": "המשך",
+    "cancel": "בטל",
+    "download": "הורד קובץ",
+    "status": {
+      "pending": "ממתין להתחלה",
+      "processing": "מעבד...",
+      "paused": "מושהה",
+      "completed": "הושלם",
+      "error": "שגיאה"
+    }
+  },
+  "progress": {
+    "title": "התקדמות",
+    "page": "עמוד {{current}} מתוך {{total}}",
+    "percent": "{{percent}}% הושלם"
+  },
+  "preview": {
+    "title": "תצוגה מקדימה",
+    "noData": "אין נתונים להצגה",
+    "showPreview": "הצג תצוגה מקדימה"
+  },
+  "error": {
+    "invalidFile": "סוג קובץ לא תקין. נא להעלות קובץ PDF בלבד.",
+    "fileSize": "גודל הקובץ חורג מהמותר (10MB מקסימום).",
+    "upload": "שגיאה בהעלאת הקובץ. נא לנסות שנית.",
+    "conversion": "שגיאה בתהליך ההמרה.",
+    "generic": "שגיאה לא צפויה. נא לנסות שנית."
+  }
+} 

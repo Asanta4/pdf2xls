@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* RTL support for Hebrew */
+body[dir="rtl"] .MuiTypography-root,
+body[dir="rtl"] .MuiInputBase-root,
+body[dir="rtl"] .MuiButton-root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Dropzone styling */
+.dropzone {
+  border: 2px dashed #cccccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.dropzone:hover {
+  border-color: #2196f3;
+}
+
+.preview-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.preview-table th,
+.preview-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.preview-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.preview-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* RTL specific table styling */
+body[dir="rtl"] .preview-table th,
+body[dir="rtl"] .preview-table td {
+  text-align: right;
+} 

@@ -1,0 +1,63 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Documentation Guidelines
+
+## README.md Maintenance
+- Update the README.md with every significant change to the codebase
+- The README must always reflect the current state of the project
+- Include in README:
+  - Updated installation instructions when dependencies change
+  - New features and functionality 
+  - Modified configuration requirements
+  - Updated deployment instructions if applicable
+
+## System Documentation
+
+### Architecture Documentation
+- Document the overall system architecture
+- Use diagrams where appropriate (consider tools like draw.io or mermaid)
+- Explain design patterns and architectural decisions
+
+### Component Documentation
+- Document each major component with:
+  - Purpose and responsibility
+  - Inputs and outputs
+  - Dependencies on other components
+  - Configuration options
+
+### Communication Flow
+- Document all API endpoints with:
+  - URL path
+  - HTTP method
+  - Required parameters
+  - Response format
+  - Error handling
+  - Authentication requirements (if applicable)
+- Document all inter-component communication protocols
+- Explain data flow from frontend to backend and vice versa
+
+### Code Documentation
+- Document all functions, classes, and methods with docstrings
+- Include:
+  - Purpose
+  - Parameters and return values
+  - Exceptions that may be thrown
+  - Usage examples for complex functionality
+
+## Documentation Format
+- Use Markdown for all documentation
+- Organize documentation in a logical, hierarchical structure
+- Use consistent formatting and style
+
+## Documentation Location
+- Main documentation: README.md and DOCUMENTATION.md in project root
+- Component-specific documentation: In component folders or as comments
+- API documentation: Generated from code via Swagger/OpenAPI
+
+## Documentation Review
+- Review documentation during code reviews
+- Update documentation when code changes
+- Remove outdated documentation 
